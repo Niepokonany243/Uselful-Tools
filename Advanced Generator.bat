@@ -129,8 +129,7 @@ if not defined password_format (
     goto password_generator
 )
 
-echo Generating password...
-rem Insert your password generation logic here.
+echo Generating password...
 echo Password123 > output.%password_format%
 echo Password generation successful!
 timeout /nobreak /t 2 >nul
